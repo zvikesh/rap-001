@@ -1,0 +1,77 @@
+@Metadata.layer: #CORE
+-- Header Info (List and Object Page)
+@UI: {
+  headerInfo: {
+    typeName: 'Travel',
+    typeNamePlural: 'Travels',
+    imageUrl: 'Attachment',
+    description:{ type: #STANDARD, value: 'TravelID' }
+  }
+}
+annotate view ZVKS001_C_TravelM with
+{
+  -- Object Page Annotations --
+  @UI.facet: [
+
+      -- Facet: Standard Identification Facet
+    {
+    id: 'idIdentification',
+    type: #IDENTIFICATION_REFERENCE,
+    label: 'Travel',
+    position: 10 }
+    ]
+
+  @UI: { lineItem: [{ position: 10, importance: #HIGH }],
+         identification: [{ position: 10 }],
+         selectionField: [{ position: 10 }] }
+  TravelID;
+
+  @UI: { lineItem: [{ position: 20, importance: #HIGH }],
+         identification: [{ position: 20 }],
+         selectionField: [{ position: 20 }] }
+  AgencyID;
+
+  @UI: { lineItem: [{ position: 30, importance: #HIGH }],
+         identification: [{ position: 30 }],
+         selectionField: [{ position: 30 }] }
+  CustomerID;
+
+  @UI: { lineItem: [{ position: 40, importance: #MEDIUM }],
+         identification: [{ position: 40 }] }
+  BeginDate;
+
+  @UI: { lineItem: [{ position: 50, importance: #MEDIUM }],
+         identification: [{ position: 50 }] }
+  EndDate;
+
+  @UI: { identification: [{ position: 60 }] }
+  BookingFee;
+
+  @UI: { identification: [{ position: 70 }] }
+  TotalPrice;
+
+  //should not be explicitly displayed, neither in the list table nor on the object page.
+  //CurrencyCode;
+
+  @UI: { identification: [{ position: 90 }] }
+  Description;
+
+  @UI: {
+        lineItem:       [ { position: 60, importance: #HIGH } ],
+        identification: [ { position: 100 } ],
+        textArrangement: #TEXT_ONLY
+  }
+  OverallStatus;
+
+  @UI.identification: [ { position: 110 } ]
+  Attachment;
+
+  /*Hide from UI*/
+
+  @UI.hidden: true
+  MimeType;
+  @UI.hidden: true
+  FileName;
+  @UI.hidden: true
+  LocalLastChangedAt;
+}

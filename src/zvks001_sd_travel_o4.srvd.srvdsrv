@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for ZVKS001_C_TRAVELM'
+define service ZVKS001_SD_TRAVEL_O4 {
+  expose ZVKS001_C_TRAVELM as Travel;
+}

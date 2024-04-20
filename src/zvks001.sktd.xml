@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SKTD" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <KTD_OBJECT>
+    <NAME>ZVKS001</NAME>
+    <TYPE>GENERAL_TEXT</TYPE>
+    <SOURCE_CONTENT_TYPE>02</SOURCE_CONTENT_TYPE>
+    <REF_OBJ_TYPE>DEVC</REF_OBJ_TYPE>
+    <REF_OBJ_NAME>ZVKS001</REF_OBJ_NAME>
+    <ABAP_LANGUAGE_VERSION>X</ABAP_LANGUAGE_VERSION>
+    <CONTENT>
+     <item>
+      <NAME>ZVKS001</NAME>
+      <LANGU>E</LANGU>
+      <COMPONENT_UUID>YqQme1hjHt68vUHbtrHDLA==</COMPONENT_UUID>
+      <SOURCE_CONTENT>RmlvcmkgUmVhZCBPbmx5IC0gQ3VzdG9tZXIgTWFzdGVyIEFwcGxpY2F0aW9uLgoKCioqUmVmZXJl
+bmNlKioKW0J1aWxkIGFuIFNBUCBGaW9yaSBBcHAgVXNpbmcgdGhlIEFCQVAgUkVTVGZ1bCBBcHBs
+aWNhdGlvbiBQcm9ncmFtbWluZyBNb2RlbCBbUkFQMTAwXV0oaHR0cHM6Ly9kZXZlbG9wZXJzLnNh
+cC5jb20vbWlzc2lvbi5zYXAtZmlvcmktYWJhcC1yYXAxMDAuaHRtbCkKCgo=</SOURCE_CONTENT>
+     </item>
+    </CONTENT>
+   </KTD_OBJECT>
+  </asx:values>
+ </asx:abap>
+</abapGit>
